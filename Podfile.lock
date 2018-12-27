@@ -1,0 +1,20 @@
+PODS:
+  - Kitten (0.1.0)
+  - NB (0.1.0)
+
+DEPENDENCIES:
+  - Kitten
+  - NB
+
+SPEC REPOS:
+  https://github.com/guoc/Specs.git:
+    - Kitten
+    - NB
+
+SPEC CHECKSUMS:
+  Kitten: dd2af684ab345e83ae855aa2d4b18318813bcb35
+  NB: 1666c6b170b8bd702b5bb329c245692820e2e3fb
+
+PODFILE CHECKSUM: 73d8e844b41f93db9891bd7b453c3cd4aaa3cd64
+
+COCOAPODS: 1.5.3

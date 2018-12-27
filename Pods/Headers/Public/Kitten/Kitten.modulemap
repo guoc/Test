@@ -1,0 +1,6 @@
+module Kitten {
+  umbrella header "Kitten-umbrella.h"
+
+  export *
+  module * { export * }
+}

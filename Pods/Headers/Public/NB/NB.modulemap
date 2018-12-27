@@ -1,0 +1,6 @@
+module NB {
+  umbrella header "NB-umbrella.h"
+
+  export *
+  module * { export * }
+}

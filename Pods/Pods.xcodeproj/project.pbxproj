@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		744F9906A6B5C3693D29758C139CE08D /* Kitten-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 493AEB155CDB730FB2F3FD5FB06F6AD5 /* Kitten-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78235803E5073A04A92FB87A53977519 /* Pods-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDE8BD9F5D29B5CB77AADAE58258441 /* Pods-Test-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A4BCFCF093EA0EA257E6299F13DE0F0 /* NB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 881D24A239A77DF022CA9F1019CF8EB9 /* NB-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DB9C0E3C5126BA20334FC6F5A66804F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C6C45EAC41C053225E08A43C389621 /* ReplaceMe.swift */; };
+		91AA6F16793E8D678400FE78F7204DA7 /* NB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795E02313E0A6DB78797C70CF78D8254 /* NB-dummy.m */; };
+		990B820F0D6831A47D8A697F63C09542 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DCDCE53D6663B4BE3766AEB1C15E35 /* ReplaceMe.swift */; };
+		A14BF1E2D17A1C21EDBBB14B2B7F8B87 /* Pods-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2626357151429E7B34BE1540E9EEF8A /* Pods-Test-dummy.m */; };
+		C3E5904B8E0DE3C9E0E93A3489AC8496 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8235571D486C552F404A6583C994F6D /* Images.xcassets */; };
+		C4263DE554C70806913587353D8A2A94 /* Kitten-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DDE40136D4D0F5D0B0B9FEC28689DD /* Kitten-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50B00D6B8728EBEB9246FFA531E39E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8251D97ACFA435279864FEAE956796;
+			remoteInfo = NB;
+		};
+		7D5E4E759564C3AB1128B3794CFDD0C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2F1161318E8F4B3CF9AC0A4CF8E0AC;
+			remoteInfo = "Kitten-Kitten";
+		};
+		F27EC998B879850E31DBE0A52CBA9013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7DA45BF61AA3A096ED1368AFB3A2B48;
+			remoteInfo = Kitten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0408B697285F8F26EB78B938B8AD4AD7 /* Kitten.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Kitten.bundle; path = "Kitten-Kitten.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24256FEA4A57C30D61FFEBE35FDBD5A4 /* Kitten-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kitten-prefix.pch"; sourceTree = "<group>"; };
+		2AC3CAE1440FBC8A277F93FE9A6EC138 /* libKitten.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKitten.a; path = libKitten.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		355B5407B22329C36A263CE3D77C1C5D /* NB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NB.xcconfig; sourceTree = "<group>"; };
+		410357C1DAEAD4289E993FFE78D7D166 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		427CA487D2D22C57B3ACD00814C0700B /* ResourceBundle-Kitten-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Kitten-Info.plist"; sourceTree = "<group>"; };
+		440232772E39A7F29DBA2047AF5A340D /* Pods-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-frameworks.sh"; sourceTree = "<group>"; };
+		493AEB155CDB730FB2F3FD5FB06F6AD5 /* Kitten-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Kitten-umbrella.h"; path = "../../Headers/Public/Kitten/Kitten-umbrella.h"; sourceTree = "<group>"; };
+		5605C18659B181F6813701578B40B241 /* libNB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNB.a; path = libNB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A870CB4463CD38FB50D9E4901257CA /* NB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NB-prefix.pch"; sourceTree = "<group>"; };
+		65C6869DD669FA097D8FE1BCAD7D1AB0 /* Pods-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6713A6113A6670C4599C5BA0FAF03DD5 /* NB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = NB.modulemap; path = ../../Headers/Public/NB/NB.modulemap; sourceTree = "<group>"; };
+		6C8BFB70B574887455491DBBEB26456E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NB/Assets/Images.xcassets; sourceTree = "<group>"; };
+		795E02313E0A6DB78797C70CF78D8254 /* NB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NB-dummy.m"; sourceTree = "<group>"; };
+		881D24A239A77DF022CA9F1019CF8EB9 /* NB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NB-umbrella.h"; path = "../../Headers/Public/NB/NB-umbrella.h"; sourceTree = "<group>"; };
+		8B8004D75FBACE4B75FB26063E2073A4 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A1F6420642EB5F79AF485B6858AF3B /* Pods-Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-resources.sh"; sourceTree = "<group>"; };
+		9CFD1BE84BEAED33D72F36B2023316F1 /* Pods-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		A33A517E7838C0E107185B8FB33F43A1 /* libPods-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Test.a"; path = "libPods-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C6C45EAC41C053225E08A43C389621 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Kitten/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A8235571D486C552F404A6583C994F6D /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Kitten/Assets/Images.xcassets; sourceTree = "<group>"; };
+		A9721E4A8F5E7D95D1AE4FE7AE5A0E62 /* Kitten.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = Kitten.modulemap; path = ../../Headers/Public/Kitten/Kitten.modulemap; sourceTree = "<group>"; };
+		ABDE8BD9F5D29B5CB77AADAE58258441 /* Pods-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-umbrella.h"; sourceTree = "<group>"; };
+		BC4099208556E3BEF066F89D9D8019C8 /* Kitten.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kitten.xcconfig; sourceTree = "<group>"; };
+		C8DCDCE53D6663B4BE3766AEB1C15E35 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NB/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D7802B0F4EAE41A9B0784267C7E223D1 /* Pods-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test.modulemap"; sourceTree = "<group>"; };
+		E4DDE40136D4D0F5D0B0B9FEC28689DD /* Kitten-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kitten-dummy.m"; sourceTree = "<group>"; };
+		F2626357151429E7B34BE1540E9EEF8A /* Pods-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C2DE34B273F737EC2A0199769255EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC839AE727D5FB61C32D3F57304E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620D1410F748CD31C8E121A6FA501052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F508821031E14DCFDA24E5BF420D7BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		235DA4BB541C840A3CED49C1BB50381B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9721E4A8F5E7D95D1AE4FE7AE5A0E62 /* Kitten.modulemap */,
+				BC4099208556E3BEF066F89D9D8019C8 /* Kitten.xcconfig */,
+				E4DDE40136D4D0F5D0B0B9FEC28689DD /* Kitten-dummy.m */,
+				24256FEA4A57C30D61FFEBE35FDBD5A4 /* Kitten-prefix.pch */,
+				493AEB155CDB730FB2F3FD5FB06F6AD5 /* Kitten-umbrella.h */,
+				427CA487D2D22C57B3ACD00814C0700B /* ResourceBundle-Kitten-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kitten";
+			sourceTree = "<group>";
+		};
+		31168BD4210B3681CF96BE833EA330E9 /* Pods-Test */ = {
+			isa = PBXGroup;
+			children = (
+				D7802B0F4EAE41A9B0784267C7E223D1 /* Pods-Test.modulemap */,
+				65C6869DD669FA097D8FE1BCAD7D1AB0 /* Pods-Test-acknowledgements.markdown */,
+				9CFD1BE84BEAED33D72F36B2023316F1 /* Pods-Test-acknowledgements.plist */,
+				F2626357151429E7B34BE1540E9EEF8A /* Pods-Test-dummy.m */,
+				440232772E39A7F29DBA2047AF5A340D /* Pods-Test-frameworks.sh */,
+				95A1F6420642EB5F79AF485B6858AF3B /* Pods-Test-resources.sh */,
+				ABDE8BD9F5D29B5CB77AADAE58258441 /* Pods-Test-umbrella.h */,
+				410357C1DAEAD4289E993FFE78D7D166 /* Pods-Test.debug.xcconfig */,
+				8B8004D75FBACE4B75FB26063E2073A4 /* Pods-Test.release.xcconfig */,
+			);
+			name = "Pods-Test";
+			path = "Target Support Files/Pods-Test";
+			sourceTree = "<group>";
+		};
+		60E55C8431F23C490952CADFDC075B88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8235571D486C552F404A6583C994F6D /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		637C71077EC8FD051F5962BF695F4A0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79733DD15188FBD2A49613E4AAF20CB4 /* Kitten */,
+				98B54829D04F2FF08EE1BB5033A6CB6A /* NB */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79733DD15188FBD2A49613E4AAF20CB4 /* Kitten */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6C45EAC41C053225E08A43C389621 /* ReplaceMe.swift */,
+				60E55C8431F23C490952CADFDC075B88 /* Resources */,
+				235DA4BB541C840A3CED49C1BB50381B /* Support Files */,
+			);
+			name = Kitten;
+			path = Kitten;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				637C71077EC8FD051F5962BF695F4A0A /* Pods */,
+				C3BED07634E1C59CF7334B606AFD53BF /* Products */,
+				9382A4D3BBB7E974998A3B387C34A6F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9382A4D3BBB7E974998A3B387C34A6F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31168BD4210B3681CF96BE833EA330E9 /* Pods-Test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		98B54829D04F2FF08EE1BB5033A6CB6A /* NB */ = {
+			isa = PBXGroup;
+			children = (
+				C8DCDCE53D6663B4BE3766AEB1C15E35 /* ReplaceMe.swift */,
+				F3E867C9BFC5F47787134741DAB0755C /* Resources */,
+				E63ED15287B2720BC84B733B1B6E9DF4 /* Support Files */,
+			);
+			name = NB;
+			path = NB;
+			sourceTree = "<group>";
+		};
+		C3BED07634E1C59CF7334B606AFD53BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0408B697285F8F26EB78B938B8AD4AD7 /* Kitten.bundle */,
+				2AC3CAE1440FBC8A277F93FE9A6EC138 /* libKitten.a */,
+				5605C18659B181F6813701578B40B241 /* libNB.a */,
+				A33A517E7838C0E107185B8FB33F43A1 /* libPods-Test.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63ED15287B2720BC84B733B1B6E9DF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6713A6113A6670C4599C5BA0FAF03DD5 /* NB.modulemap */,
+				355B5407B22329C36A263CE3D77C1C5D /* NB.xcconfig */,
+				795E02313E0A6DB78797C70CF78D8254 /* NB-dummy.m */,
+				56A870CB4463CD38FB50D9E4901257CA /* NB-prefix.pch */,
+				881D24A239A77DF022CA9F1019CF8EB9 /* NB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NB";
+			sourceTree = "<group>";
+		};
+		F3E867C9BFC5F47787134741DAB0755C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C8BFB70B574887455491DBBEB26456E /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B9B2F71332D9D8B845AB673D98DBEC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78235803E5073A04A92FB87A53977519 /* Pods-Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60453CC92E02C5FB3BE357C6B775874F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F9906A6B5C3693D29758C139CE08D /* Kitten-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65982672215334292F6E666EE2AC78F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4BCFCF093EA0EA257E6299F13DE0F0 /* NB-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		141AE63EEA0E446F0853239EB95A36AB /* Pods-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4B7746324CBBCA6EB17BCD1ED25C29 /* Build configuration list for PBXNativeTarget "Pods-Test" */;
+			buildPhases = (
+				5B9B2F71332D9D8B845AB673D98DBEC4 /* Headers */,
+				D5DAA9876B439694A3CFB9BDF5D422D0 /* Sources */,
+				6F508821031E14DCFDA24E5BF420D7BC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42169E605E2E93BC9D4616F76462ADD8 /* PBXTargetDependency */,
+				CF22C02F1B2EDD97E7096829B2B33FE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Test";
+			productName = "Pods-Test";
+			productReference = A33A517E7838C0E107185B8FB33F43A1 /* libPods-Test.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C2F1161318E8F4B3CF9AC0A4CF8E0AC /* Kitten-Kitten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3394DA55371AB81510E1E962BF82952C /* Build configuration list for PBXNativeTarget "Kitten-Kitten" */;
+			buildPhases = (
+				082EA00B60C74142E9A28B777FCF396F /* Sources */,
+				61CC839AE727D5FB61C32D3F57304E1E /* Frameworks */,
+				06AE2448A0E3A5AB8A3B82B6C53EDA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kitten-Kitten";
+			productName = "Kitten-Kitten";
+			productReference = 0408B697285F8F26EB78B938B8AD4AD7 /* Kitten.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AF8251D97ACFA435279864FEAE956796 /* NB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC066CDCC690FEEC861734B29D3701FA /* Build configuration list for PBXNativeTarget "NB" */;
+			buildPhases = (
+				65982672215334292F6E666EE2AC78F7 /* Headers */,
+				60C0975DD83BCB7463CEC783DDC66900 /* Sources */,
+				620D1410F748CD31C8E121A6FA501052 /* Frameworks */,
+				26E62DF01EF057B002EF9D61521BDA85 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NB;
+			productName = NB;
+			productReference = 5605C18659B181F6813701578B40B241 /* libNB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7DA45BF61AA3A096ED1368AFB3A2B48 /* Kitten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49B72869D29F33382CE9AC5FBF994EF /* Build configuration list for PBXNativeTarget "Kitten" */;
+			buildPhases = (
+				60453CC92E02C5FB3BE357C6B775874F /* Headers */,
+				0462300B9C514D433F1EC1BF067F9A34 /* Sources */,
+				14C2DE34B273F737EC2A0199769255EC /* Frameworks */,
+				12D007F05D3DF4307CAE7C49D05DAB2F /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A917349AB9BE15C7C1AB7CD36D5C8F /* PBXTargetDependency */,
+			);
+			name = Kitten;
+			productName = Kitten;
+			productReference = 2AC3CAE1440FBC8A277F93FE9A6EC138 /* libKitten.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C3BED07634E1C59CF7334B606AFD53BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7DA45BF61AA3A096ED1368AFB3A2B48 /* Kitten */,
+				3C2F1161318E8F4B3CF9AC0A4CF8E0AC /* Kitten-Kitten */,
+				AF8251D97ACFA435279864FEAE956796 /* NB */,
+				141AE63EEA0E446F0853239EB95A36AB /* Pods-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06AE2448A0E3A5AB8A3B82B6C53EDA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E5904B8E0DE3C9E0E93A3489AC8496 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12D007F05D3DF4307CAE7C49D05DAB2F /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Kitten/Kitten.modulemap",
+				"${PODS_ROOT}/Headers/Public/Kitten/Kitten-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Kitten-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Kitten/Kitten.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Kitten/Kitten-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		26E62DF01EF057B002EF9D61521BDA85 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/NB/NB.modulemap",
+				"${PODS_ROOT}/Headers/Public/NB/NB-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/NB-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NB/NB.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NB/NB-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0462300B9C514D433F1EC1BF067F9A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4263DE554C70806913587353D8A2A94 /* Kitten-dummy.m in Sources */,
+				8DB9C0E3C5126BA20334FC6F5A66804F /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082EA00B60C74142E9A28B777FCF396F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C0975DD83BCB7463CEC783DDC66900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AA6F16793E8D678400FE78F7204DA7 /* NB-dummy.m in Sources */,
+				990B820F0D6831A47D8A697F63C09542 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DAA9876B439694A3CFB9BDF5D422D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14BF1E2D17A1C21EDBBB14B2B7F8B87 /* Pods-Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05A917349AB9BE15C7C1AB7CD36D5C8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kitten-Kitten";
+			target = 3C2F1161318E8F4B3CF9AC0A4CF8E0AC /* Kitten-Kitten */;
+			targetProxy = 7D5E4E759564C3AB1128B3794CFDD0C4 /* PBXContainerItemProxy */;
+		};
+		42169E605E2E93BC9D4616F76462ADD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kitten;
+			target = E7DA45BF61AA3A096ED1368AFB3A2B48 /* Kitten */;
+			targetProxy = F27EC998B879850E31DBE0A52CBA9013 /* PBXContainerItemProxy */;
+		};
+		CF22C02F1B2EDD97E7096829B2B33FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NB;
+			target = AF8251D97ACFA435279864FEAE956796 /* NB */;
+			targetProxy = 50B00D6B8728EBEB9246FFA531E39E19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		220EE953808940D02D4E7CC574AEB1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8004D75FBACE4B75FB26063E2073A4 /* Pods-Test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Test/Pods-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		452C4162245D9B94376003C39D9B79BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355B5407B22329C36A263CE3D77C1C5D /* NB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NB/NB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/NB/NB.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NB;
+				PRODUCT_NAME = NB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		791F5A0C31BB0CC92E42C09938895A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4099208556E3BEF066F89D9D8019C8 /* Kitten.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Kitten";
+				INFOPLIST_FILE = "Target Support Files/Kitten/ResourceBundle-Kitten-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Kitten;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		85075EFE58EDD1350F6AFE470C62FB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4099208556E3BEF066F89D9D8019C8 /* Kitten.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Kitten";
+				INFOPLIST_FILE = "Target Support Files/Kitten/ResourceBundle-Kitten-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Kitten;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8B43BC934E03D6B10EAEE9EF8FF47365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410357C1DAEAD4289E993FFE78D7D166 /* Pods-Test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Test/Pods-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		917F801C62ED998B83D703CEFFFC1F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355B5407B22329C36A263CE3D77C1C5D /* NB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NB/NB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/NB/NB.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NB;
+				PRODUCT_NAME = NB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ADDBA42105AF1C025A569757E6B6BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4099208556E3BEF066F89D9D8019C8 /* Kitten.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Kitten/Kitten-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Kitten/Kitten.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Kitten;
+				PRODUCT_NAME = Kitten;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E770EA84E68FBC048EBE60B5128CBB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4099208556E3BEF066F89D9D8019C8 /* Kitten.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Kitten/Kitten-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Kitten/Kitten.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Kitten;
+				PRODUCT_NAME = Kitten;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
+				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3394DA55371AB81510E1E962BF82952C /* Build configuration list for PBXNativeTarget "Kitten-Kitten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791F5A0C31BB0CC92E42C09938895A38 /* Debug */,
+				85075EFE58EDD1350F6AFE470C62FB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4B7746324CBBCA6EB17BCD1ED25C29 /* Build configuration list for PBXNativeTarget "Pods-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43BC934E03D6B10EAEE9EF8FF47365 /* Debug */,
+				220EE953808940D02D4E7CC574AEB1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49B72869D29F33382CE9AC5FBF994EF /* Build configuration list for PBXNativeTarget "Kitten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E770EA84E68FBC048EBE60B5128CBB48 /* Debug */,
+				9ADDBA42105AF1C025A569757E6B6BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC066CDCC690FEEC861734B29D3701FA /* Build configuration list for PBXNativeTarget "NB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452C4162245D9B94376003C39D9B79BA /* Debug */,
+				917F801C62ED998B83D703CEFFFC1F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
